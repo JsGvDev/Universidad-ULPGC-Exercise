@@ -1,0 +1,29 @@
+En esta primera práctica, se introducirá al alumno en en el entorno de desarrollo C++Builder, con el cual se desarrollará la práctica de todo el curso. El objetivo de esta práctica es aprender a trabajar con dicho entorno y desarrollar una pequeña aplicación de dibujo muy básica, con una interfaz inicial que iremos mejorando a lo largo de las prácticas posteriores.
+
+Los pasos a seguir en esta práctica son:
+
+- Visión general del entorno de desarrollo. Explicación de las propiedades, métodos y eventos.
+
+- Trabajo con componente gráficos, especialmente, TImage, TPaintBox, TShape.
+
+- Explicación del objeto Canvas.
+
+- Dibujo de líneas con las funciones MoveTo y LineTo. Sobre un componente TImage o TPaintBox, dibujaremos puntos y rectas de distintos colores.
+
+- Dibujo de líneas usando los eventos MouseDown y MouseUp.
+
+- Dibujo de líneas usando el evento MouseMove.
+
+- Rubberbanding usando el modo pmNotXor.
+
+- Componentes de diálogo (abrir y guardar ficheros, imprimir, elegir fuente, etc).
+
+- Uso del Color Dialog para elegir el color de la línea.
+
+- Añadir un Label para mostrar las coordenadas del cursor en todo momento.
+
+- Crear un RadioGroup, y añadir la opción para dibujar círculos con el método Ellipse.
+
+- Usar un CheckBox para elegir entre círculo sólido y hueco.
+
+- Usan un ScrollBar para que el usuario indique el grosor de línea.

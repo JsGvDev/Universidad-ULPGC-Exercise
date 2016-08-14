@@ -1,0 +1,598 @@
+html
+{
+	background-color: #E8F4E8;
+}
+
+.principal{
+	position: relative;
+	width: 990px;
+	margin: auto;	
+}
+
+.cabecera
+{
+	position:relative;
+	left: 5px;
+	right: 5px;
+	top: 0px;
+	height: 180px;
+	border: 5px solid #E8F4E8;
+	margin: 0px;
+	background: url('imagenes/Cabecera.jpg');
+	background-repeat:no-repeat;
+	background-size: 100% 100%;
+}
+
+.cuerpo
+{
+	position: relative;
+	left: 5px;
+	right: 5px;	
+	top: 0px;
+	border: 5px solid #E8F4E8;
+	margin: 0px;
+}
+
+.lado_izq
+{
+	position:relative;
+	top: -14px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	width: 250px;
+	min-height: 900px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	background-color: #E6E4E4;
+	padding-left: 0px;
+	border-right: 1px solid #B7B2B2;
+}
+
+.lado_izq H3
+{
+	position: relative;
+	padding: 5px 5px 5px 5px;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #000;
+	background-color: #fea143;
+	letter-spacing: -1px;
+}
+
+.lado_izq .buscador form
+{
+	position: relative;
+	margin-left: 6px;
+	overflow: hidden;	
+}
+.lado_izq .buscador INPUT[type=text]
+{
+	width: 211px;
+	padding: 4px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 13px;
+	margin-left: 0px;
+}
+.lado_izq INPUT[type=submit]
+{
+	font-size: 10px;
+	float: right;
+	cursor: pointer;
+	margin-top: -2px;
+}
+.lado_izq .buscador SELECT
+{
+	width: 221px;
+	padding: 4px;
+	margin-top: -5px;
+	margin-right: 0px;
+	margin-bottom: 13px;
+	margin-left: 0px;
+}
+#ultimas_busquedas
+{
+	position: absolute;
+	left: 6px;
+	bottom: 10px;
+	font-size: 10px;
+	font-weight: italic;
+	text-transform: uppercase;
+}
+#buscador_caratulas
+{
+	font-weight: italic;
+	text-transform: uppercase;
+	font-size: 10px;
+	position: absolute;
+	bottom: -1px;
+	left: 6px;
+}
+a
+{
+	color: #424242;
+	text-decoration: none;
+}
+/*usuarios*/
+.lado_izq .usuarios
+{
+	position: relative;
+	top: 20px;
+}
+.lado_izq .usuarios .login
+{
+	margin-bottom: 40px;
+	text-align: center;
+}
+.lado_izq .usuarios FORM
+{
+	position: relative;	
+	margin-left: 6px;
+	overflow: hidden;	
+}
+.lado_izq .usuarios FORM INPUT[type=text], .lado_izq .usuarios FORM INPUT[type=password]
+{
+	font-size: 10px;
+	width: 103px;
+	padding: 1px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+}
+/*.lado_izq .usuarios FORM LABEL
+{
+	font-size: 10px;
+	padding-top: 4px;
+	display: block;
+}*/
+.lado_izq .usuarios FORM .datos
+{
+	font-size: 10px;
+	padding-top: 4px;
+	display: block;
+	float: left;
+}
+
+/*publi*/
+.lado_izq .publi
+{
+	position: relative;
+	top: 40px;
+}
+.lado_izq .publi1
+{
+	position: relative;
+	top: 45px;
+	margin-left: 2px;
+}
+/*reloj*/
+.lado_izq .reloj
+{
+	position: relative;
+	top: 75px;
+	margin-left: 5px;
+}
+/*lado dch*/
+.novedades
+{
+	position: absolute;
+	top: 0px;
+	left: 255px;
+}
+.list_cat
+{
+	position: absolute;
+	top:230px;
+	left: 253px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	width: 730px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.Bluray
+{
+	position: absolute;
+	top: 0px;
+	width: 240px;
+	left: 0px;
+	text-align: center;
+}
+
+.DVD
+{
+	position: absolute;
+	top: 0px;
+	width: 240px;
+	left: 242px;
+	text-align: center;
+
+}
+
+.Series
+{
+	position: absolute;
+	top: 0px;
+	width: 240px;
+	left: 484px;
+	text-align: center;
+}
+h4
+{
+	background-color:#fea143;
+	font-weight:bold;
+	padding:5px;
+	height: 24px;
+	/*width: 720px;*/
+}
+.proxestr
+{
+	width: 713px;
+	text-align: center;
+}
+.contenido
+{
+	position: absolute;
+	left: 253px;
+	/*top: 467px;*/
+	top: 425px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	width: 730px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;	
+}
+.peliytrailer
+{
+	position: absolute;
+	left: 253px;
+	top: 220px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	width: 730px;
+	height: 900px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;	
+}
+.caratulagrande
+{
+	position: relative;
+	width: 282px;
+	height: 417px;
+	float: left;
+}
+.trailer
+{
+	position: relative;
+
+}
+.datospeli
+{
+	position: absolute;
+	top: 470px;
+	width: 730px;
+	left: 0px;
+}
+.infopeli
+{
+	float: left;
+	width: 140px;
+	height: 100px;
+	margin-left: 15px;
+}
+.cont_izq_arr
+{
+	position: absolute;
+	top: 40px;
+	width: 360px;
+	left: 0px;
+}
+.cont_dch_arr
+{
+	position: absolute;
+	top: 40px;
+	width: 358px;
+	left: 365px;
+}
+.cont_izq_abj
+{
+	position: absolute;
+	top: 271px;
+	width: 360px;
+	left: 0px;
+}
+.cont_dch_abj
+{
+	position: absolute;
+	top: 271px;
+	width: 358px;
+	left: 365px;
+}
+.contenido img, .list_novedad img
+{
+	position: relative;
+	left: 10px;
+	float: left;
+}
+.contenido h5, .list_novedad h5
+{
+	position: relative;
+	left: 10px;
+	color: #157E07;
+}
+.contenido p, .list_novedad p
+{
+	position: relative;
+	width: 225px;
+	left: 15px;
+	overflow: hidden;
+}
+.peliytrailer h5
+{
+	color: #157E07;
+}
+
+.list_novedad
+{
+	position: relative;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.list_novedad ul
+{
+	padding: 0px;
+}
+.list_novedad li
+{
+	position: relative;
+	width: 321px;
+	height: 200px;
+	padding: 0px 0px 0px 0px;
+	margin-right: 5px;
+	float: left;
+	list-style-type: none;
+}
+
+.categorias
+{
+	position: relative;		
+}
+
+.piepagina
+{
+	position: relative;	
+	left: 5px;
+	right: 5px;
+	height: 80px;	
+	border: 5px solid #E8F4E8;
+	margin: 0px;
+}
+
+#l_izq{
+	float: left;
+	width: 600px;
+}
+
+/*Publicidad pie de página*/
+.banners
+{
+	position: relative;	
+	left: 5px;
+	right: 5px;
+	height: 100px;	
+	border: 5px solid #E8F4E8;
+	margin: 0px;
+}
+
+marquee
+{
+	position: relative;
+	top: 0px;
+	text-align: center;
+	
+}
+
+.publiabajo1
+{
+	position: absolute;
+	top: 0px;
+	left: 300px;
+	text-align: center;
+}
+.publiabajo2
+{
+	position: absolute;
+	top: 0px;
+	left: 600px;
+	text-align: center;
+}
+
+p
+{
+	font-style: italic;
+	font-weight: bold;
+}
+
+h3
+{
+	background-color:#fea143;
+	font-weight:bold;
+	padding:5px;
+}
+
+/*Menú cabecera*/
+#menu {
+	background-color: #fea143;
+	padding-left: 250px;
+	position: relative;
+	top: 150px;	
+}
+
+#menu ul {
+	display: inline-block;
+	margin: 0;
+	height: 30px;
+	font: 13px Arial, Helvetica, sans-serif;
+	border-left: 1px solid #ffb266;
+	border-right: 1px solid #df8122;
+}
+
+#menu ul li {
+	display: inline;
+	padding: 0 15px 0 0;
+	border-left: 1px solid #df8122;
+	border-right: 1px solid #ffb266;
+}
+
+#menu ul li a {
+	line-height: 30px;
+}
+
+#nav, #nav ul {
+	list-style: none;
+	font-weight: bold;
+	padding: 0px;
+	margin: 0px auto;
+	text-align: left;
+}
+#nav li:hover {
+	position: static;   
+} 
+#nav a, #nav a:hover {
+	display: block;
+	text-decoration: none;
+	font-weight: bold;
+	color: #000;
+	margin-left: 10px;
+}
+#nav li:hover a {
+	color: #fff;
+	text-shadow: 0 1px 2px rgba(0,0,0,0.8);
+}
+#nav li {
+	float: left;
+}
+#nav li ul {
+	position: absolute;
+	left: -999em;
+	height: auto;
+	width: 160px;
+	font-weight: normal;
+	margin-left: -1px;
+	z-index: 4;
+	border: 0;
+	border-top: 1px solid #2a4223;
+	padding-right: 2px;
+}
+#nav li li {
+	padding-right: 0px;
+	width: 160px;
+	height: 24px;
+	margin-bottom: 0; 
+	background: #38592e; /*desplegable*/
+	color: white;
+	border-bottom: 1px solid #2a4223;
+	border-right: 1px solid #2a4223;
+	border-left: 1px solid #2a4223;	
+}
+#nav li ul a {
+	width: 150px;
+	line-height: 24px;
+	color: #fff;
+}
+#nav li ul ul {
+	margin: -25px 0 0 160px;
+}
+#nav li:hover ul ul, #nav li:hover ul ul ul {
+	left: -999em;
+}
+#nav li:hover ul, #nav li li:hover ul, #nav li li li:hover ul {
+	left: auto;
+}
+#nav li:hover {
+	background-position: 0 -132px;
+}
+#nav li a:hover {
+	background-color: #fea143;
+}
+
+/*Botones administrador*/
+.admini
+{
+	position: absolute;
+	left: 260px;
+	/*top: 467px;*/
+	top: 214px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	width: 709px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;	
+}
+.admini div.buttom1 input
+{
+	width: auto;
+	height: 35px;
+	text-align: center;
+	background-color: #FDA143;
+	border: outset;
+	border-color: #EE7F0F;
+	font-weight: bold;
+	display:inline;
+	cursor: pointer;
+	position: absolute;
+	left: 31px;
+	top:60px;
+}
+.admini div.buttom2 input
+{
+	width: auto;
+	height: 35px;
+	text-align: center;
+	background-color: #FDA143;
+	border: outset;
+	border-color: #EE7F0F;
+	font-weight: bold;
+	display:inline;
+	cursor: pointer;
+	position: absolute;
+	left: 275px;
+	top:60px;
+}
+.admini div.buttom3 input
+{
+	width: auto;
+	height: 35px;
+	text-align: center;
+	background-color: #FDA143;
+	border: outset;
+	border-color: #EE7F0F;
+	font-weight: bold;
+	display:inline;
+	cursor: pointer;
+	position: absolute;
+	left: 556px;
+	top:60px;
+}
+.user_active
+{
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+}
+.user_active:hover p
+{
+	
+	background-color: #FDA143;
+	font-size: 25px;
+}

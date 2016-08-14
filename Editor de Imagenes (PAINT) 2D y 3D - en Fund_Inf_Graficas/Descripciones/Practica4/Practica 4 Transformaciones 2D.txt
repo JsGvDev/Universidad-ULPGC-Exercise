@@ -1,0 +1,28 @@
+En esta práctica comenzaremos a trabajar con polígonos, y posteriormente permitir que el usuario pueda transformarlos.
+
+Los pasos a seguir son:
+
+- Añadir una opción al RadioGroup para crear un polígono
+
+- Almacenarlo en una tabla global pol[100][3], para guardar las coordenadas (x,y,h) de cada vértice
+
+- En el MouseDown ir añadiendo vértices y pintando líneas, y acabar con el botón derecho
+
+- En el click de "Crear Polígono", borrar pantalla e inicializar el vector
+
+- Implementar la función que multiplique un punto 2D en homogéneas por una matriz 3x3
+void Mult (double p[3], double M[3][3]);
+
+- Implementar la función para trasladar un polígono, que cree la matriz de traslación y llame a la función Mult para cada vértice
+void Trasladar (double P[][3], double tx, double ty);
+
+- Implementar la función para refrescar el polígono en pantalla, dibujando aristas entre cada par de vértices
+void PintaPol (double P[][3])
+
+- Utilizar el MouseMove para poder trasladar el polígono con el ratón
+
+- Repetir los pasos anteriores para la rotación alrededor de donde pica el usuario. El ángulo de rotación vendrá dado por la diferencia en vertical con respecto a lo que arrastra el usuario
+
+- Repetir el paso anterior pero para el escalado. Esta vez, los factores son proporcionales a lo que el usuario arrastre en horizontal y en vertical de forma independiente
+
+- Si diese tiempo se puede tratar de hacer la reflexión con respecto a una recta arbitraria (opcional)

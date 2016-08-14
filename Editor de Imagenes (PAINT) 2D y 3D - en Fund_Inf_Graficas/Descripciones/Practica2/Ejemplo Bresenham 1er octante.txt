@@ -1,0 +1,24 @@
+void bresenham(int x1,int y1,int x2,int y2){
+int x,y,incx,incy,A,B,p;
+
+    incx=x2-x1;
+    incy=y2-y1;
+
+    A=2*incy;
+    B=2*incy-2*incx;
+    p=2*incy-incx;
+
+    x=x1;y=y1;
+    Form1->PaintBox1->Canvas->Pixels[x][y]=clBlack;
+    while(x<x2){
+        x++;
+        if(p>0){
+              y++;
+              p+=B;
+        }else{
+              p+=A;
+        }
+        Form1->PaintBox1->Canvas->Pixels[x][y]=clBlack;
+    }
+
+}

@@ -1,0 +1,103 @@
+#image_carousel 
+{
+	padding: 15px 0 15px 40px;
+	background-color: #E8F4E8;
+	position: relative;
+	
+}
+#foo2
+{
+	position: relative;
+	text-align: center;
+	left: 25%;
+} 
+#foo2 div 
+{
+	text-align: center;
+	float: left;
+	position: relative;
+}
+#foo2 div span 
+{
+	display: none;
+}
+#image_carousel img 
+{
+	
+	background-color: #E8F4E8;
+	padding: 9px;
+	margin: 7px;
+	display: block;
+}
+a.prev, a.next 
+{
+	background: url(imagenes/miscellaneous_sprite.png) no-repeat transparent;
+	width: 45px;
+	height: 50px;
+	display: block;
+	position: absolute;
+	bottom: 40%;
+}
+a.prev 
+{	left: 25%;
+	background-position: 0 0;
+}
+a.prev:hover { background-position: 0 -50px; }
+a.prev.disabled { background-position: 0 -100px !important;  }
+a.next 
+{
+	left: 80%;
+	background-position: -50px 0;
+}
+a.next:hover { background-position: -50px -50px; }
+a.next.disabled { background-position: -50px -100px !important;  }
+a.prev.disabled, a.next.disabled 
+{
+	cursor: default;
+}
+
+a.prev span, a.next span 
+{
+	display: none;
+}
+.pagination 
+{
+	text-align: center;
+}
+.pagination a 
+{
+	background: url(imagenes/miscellaneous_sprite.png) 0 -300px no-repeat transparent;
+	width: 15px;
+	height: 15px;
+	margin: 0 5px 0 0;
+	display: inline-block;
+}
+.pagination a.selected 
+{
+	background-position: -25px -300px;
+	cursor: default;
+}
+.pagination a span 
+{
+	display: none;
+}
+.clearfix 
+{
+	float: none;
+	clear: both;
+}
+#foo2 div:hover span {
+	background-color: #333;
+	color: #fff;
+	font-family: Arial, Geneva, SunSans-Regular, sans-serif;
+	font-size: 14px;
+	line-height: 22px;
+	display: inline-block;
+	width: 100px;
+	padding: 2px 0;
+	margin: 0 0 0 -50px;
+	position: absolute;
+	bottom: 30px;
+	left: 50%;
+	border-radius: 3px;
+}

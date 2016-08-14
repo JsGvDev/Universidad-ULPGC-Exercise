@@ -1,0 +1,15 @@
+En esta práctica se implementará el algoritmo del círculo del punto medio, y también el algoritmo de relleno por inundación básico.
+
+Los pasos a seguir son:
+
+- crear la función CírculoPM que pinte inicialmente sólo el primer octante
+
+- añadir el resto de octantes aplicando simetrías
+
+- añadir la opción grosor (opcional)
+
+- añadir la opción de discontinuidad (opcional)
+
+- crear la función recursiva Rellena para inundar a partir del MouseDown
+
+- si da tiempo, implementar la versión mejorada del algoritmo de inundación (opcional)

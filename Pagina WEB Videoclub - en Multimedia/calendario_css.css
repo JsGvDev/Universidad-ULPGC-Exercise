@@ -1,0 +1,15 @@
+.lado_izq
+{
+	float: left;
+	top: 0px;
+}
+.list_novedad
+{
+	top: 230px;
+	left: 255px;
+}
+.list_novedad li
+{
+	text-align: center;
+	left: -215px;
+}

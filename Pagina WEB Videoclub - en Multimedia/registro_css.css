@@ -1,0 +1,87 @@
+div.contenido form 
+{
+	position: absolute;
+	width: 544px;
+	height: 544px;
+	text-align: center;
+		
+}
+div.contenido h3 
+{
+	font-weight: bold;
+	font-size: 24px;		
+}
+.form-item
+{
+	position: relative;
+	left: 105px;
+	margin-top:10px;
+	display:block;	
+}
+label
+{
+	font-size: 15px;
+	padding-bottom: 4px;
+	padding: 2px;
+	font-weight: bold;
+}
+div.contenido input.form-input 
+{
+	width: 330px;
+}
+div.contenido input, label
+{
+	float: none;
+	display: block;
+	text-align:left;
+}
+.form-input:hover
+{
+	box-shadow: 0pt 0pt 5px 0pt orange;
+	border: 1px solid rgb(232, 97, 0);
+}
+
+.form-input:active, .form-input:focus
+{
+	box-shadow: 0pt 0pt 5px 0pt rgb(0, 255, 0);
+	border: 1px solid rgb(0, 255, 0);
+}
+.contenido .advert p 
+{
+	display: none;
+}
+.contenido div:hover p {
+	background-color: #333;
+	color: #fff;
+	font-family: Arial, Geneva, SunSans-Regular, sans-serif;
+	font-size: 14px;
+	line-height: 22px;
+	display: inline-block;
+	width: 100px;
+	padding: 2px 0;
+	margin: 0 0 0 -50px;
+	position: absolute;
+	bottom: 30px;
+	left: 50%;
+	border-radius: 3px;	
+}
+.contenido form a {  text-decoration: underline; }
+.contenido div.buttom
+{
+	position: relative;
+	left: 110px;
+	top: 10px;
+	
+}
+.contenido div.buttom input
+{
+	width: 90px;
+	height: 35px;
+	text-align: center;
+	background-color: #FDA143;
+	border: outset;
+	border-color: #EE7F0F;
+	font-weight: bold;
+	display:inline;
+	cursor: pointer;
+}

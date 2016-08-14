@@ -1,0 +1,23 @@
+En esta práctica vamos a implementar el algoritmo de recorte Cyrus-Beck, para recortar las aristas de un polígono.
+
+Los pasos a seguir son:
+
+- Añadir un checbox para la opción Recortar
+
+- Cuando el usuario active el checkbox, borraremos la pantalla y pintaremos un rectángulo rojo interior, que hará las veces de ventana de recorte
+
+- Cuando el usario desactive el checkbox, borraremos el rectángulo rojo y repintaremos todo el polígono
+
+- Con el checkbox activado, habrá que llamar a la función:
+void Recortar (pol, numver, xl, yl, xr, yr)
+donde (xl,yl) y (xr,yr) son las esquinas opuestas de la ventana de recorte
+
+- A su vez, la función Recortar llamará a la función
+void CyrusBeck (x0,y0,x1,y1, xl,yl,xr,yr)
+para cada una de las aristas del polígono. Está función pintará sólo la parte visible de cada arista, si es que existe
+
+- Implementar la función CyrusBeck, inicialmente para recortar sólamente con el borde izquierdo de la ventana
+
+- Implementar el resto de la función CyrusBeck para los cuatro bordes de la ventana
+
+- Añadir en el MouseMove la llamada a Recortar, para que mientras transformamos un polígono, el recorte se esté haciendo en tiempo real (opcional)

@@ -1,0 +1,21 @@
+En esta práctica damos el salto a las tres dimensiones.
+
+Los pasos a seguir son:
+
+- Crearemos dos PaintBox más, para tener 3 vistas en la aplicación
+
+- Añadimos una coordenada más a la estructura de datos
+
+- Modificamos la opción de Crear Polígono para que rellene con información 3D
+
+- Modificamos la función Pintar para que refresque las tres vistas
+
+- Modificamos las funciones Multiplicar y Trasladar para aceptar coordenadas 3D
+
+- Modificamos la función Pintar para que pinte una vista diferente en cada PaintBox
+
+- Permitimos que en función de en qué PaintBox pica el usuario, se traslade en una dimensión o en otra
+
+- Hacemos lo mismo para Rotar y Escalar
+
+- Permitimos la creación de Pirámides (opcional)

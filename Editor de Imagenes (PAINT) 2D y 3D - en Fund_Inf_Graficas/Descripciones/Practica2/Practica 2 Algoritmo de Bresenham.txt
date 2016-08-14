@@ -1,0 +1,23 @@
+En esta práctica implementaremos el algoritmo de Bresenham para el dibujo de rectas. Dado que en la clase de teoría hemos visto el algoritmo para el primer octante, será necesario adaptarlo para controlar en qué octante nos encontramos y hacer las modificaciones oportunas en cada uno de ellos.
+
+Además, debemos tener en cuenta que en Builder, el objeto Canvas tiene la posición (0,0) en la esquina superior izquierda. Es decir, la componente "y" crece hacia abajo.
+
+Los pasos a seguir en la práctica serán:
+
+- Diseñar la función siguiente:
+void Bresenham (int x0, int y0, int x1, int y1)
+para que dibuje una línea, inicialmente en el primer octante (pendiente entre 0 y 1, la línea va hacia abajo)
+
+- Añadir el caso para pendiente entre 0 y -1 (la línea va hacia arriba)
+
+- Añadir el caso para líneas de derecha a izquierda.
+
+- Añadir el caso para líneas de pendiente mayor que 1
+
+- Añadirle la opción grosor (opcional)
+
+- Añadirle la opción de discontinuidad (opcional)
+
+- Añadirle la opción color
+
+- Permitir borrar línea con XOR en el mousemove

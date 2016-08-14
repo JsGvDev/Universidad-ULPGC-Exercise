@@ -1,0 +1,52 @@
+//Datos para lectura bmp
+struct canales canal;
+char *imagenes[4]={"bmp/circuito_1.bmp","bmp/circuito_2.bmp","bmp/circuito_3.bmp","bmp/circuito.bmp"};
+int area = 4000;
+
+ami_read_bmp(imagenes[2],&canal.red,&canal.green,&canal.blue,&canal.width,&canal.height);
+
+void draw_bmp()
+{
+     int i,j;
+     int valor;
+     glPushMatrix();
+     glDisable(GL_TEXTURE_2D);
+     int cont = 0;
+     float ejey = -2000;
+        for (i=0; i<canal.height; i++){
+                float ejex = -2000;
+                ejey = ejey+7.8125;
+		for (j=0; j<canal.width; j++){
+
+			valor = canal.red[i*(canal.width) + j];
+                        if (valor > 128){
+                                glColor3f(1.0,0.0,0.0);
+                        } else {
+                                cont++;
+                                glColor3f(0.0,1.0,0.0);
+                        }
+                        glBegin(GL_QUADS);
+                                glVertex3f(ejex,10.0,ejey+7.8125);
+
+                                glVertex3f(ejex,10.0f,ejey);
+
+                                glVertex3f(ejex+7.8125,10.0f,ejey);
+
+                                glVertex3f(ejex+7.8125,10.0f,ejey+7.8125);
+                         glEnd();
+                         ejex = ejex+7.8125;
+		}
+	}
+        glEnable(GL_TEXTURE_2D);
+     glPopMatrix();
+}
+
+...
+DrawSKY(texturas);
+glDisable(GL_CULL_FACE);
+DrawBOX(texturas);
+DrawGround(texturas);
+DrawRoad(texturas);
+draw_bmp();
+glEnable(GL_CULL_FACE);
+...

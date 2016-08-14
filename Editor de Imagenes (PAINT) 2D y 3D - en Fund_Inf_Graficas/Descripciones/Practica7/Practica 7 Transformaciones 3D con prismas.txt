@@ -1,0 +1,17 @@
+Ya tenemos en nuestra aplicación la posibilidad de realizar transformaciones en 3D, pero para que se vean bien en todo su esplendor, necesitamos trabajar con objetos verdaderamente tridimensionales, en lugar de hacerlo con polígonos, que son figuras que no tienen volumen.
+
+Para ello en esta práctica crearemos un objeto prisma, para poder aplicarle las transformaciones:
+
+Los pasos son los siguientes:
+
+- Duplicar vértices con un valor de z mayor para crear la cara de atrás
+
+- Declarar una tabla para guardar las aristas (con dos enteros por fila)
+
+- Implementar la función CreaPrisma, que rellene la tabla con las aristas del prisma
+
+- Implementar la función PintaPrisma, que pinte todas las aristas en los tres PaintBox
+
+- Pintar en rojo el eje central
+
+- Implementar la función de Rotación General, alrededor del eje central
