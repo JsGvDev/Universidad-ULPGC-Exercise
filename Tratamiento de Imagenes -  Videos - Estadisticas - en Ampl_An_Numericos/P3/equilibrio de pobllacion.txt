@@ -1,0 +1,30 @@
+void equilibrio_de_poblacion(){
+	
+	float a,b,d,e,f;
+	float P,C,Pnew,Cnew;
+	//float error = 1, errorP,errorC;
+	a=0.2;
+	b=0.00015;
+	d=0.0001;
+	e=0.1;
+	f=0.00015;
+	
+	P = e/f;
+	C = (a-d*P)/b;
+	
+	while (P!=0 && C!=0) {
+		Pnew = P + ((a*P)-(b*P*C)-(d*(P*P)));
+		Cnew = C + ((-e*C)+(f*P*C));
+		//errorP = abs(P-Pnew);
+		//errorC = abs(P-Pnew);
+		P=Pnew;
+		C=Cnew;
+		if (P <= 0){
+			P = 0;
+		} 
+		if (C <= 0){
+			C = 0;
+		}		
+	}
+	return;
+}

@@ -1,0 +1,13 @@
+En la carpeta "Programa ejecutable Pract4" se encuentra el ejecutable de la practica. En esta carpeta es necesario
+descomprimir los archivo:
+
+http://telepresencial.ulpgc.es/cv/ulpgctp12/file.php/7786/ruido.zip
+http://www.mediafire.com/file/44r8empfm5l5nlp/desenfocada.rar  (88.68 MB)
+http://www.mediafire.com/file/r52fm065pkz93e9/AAN_P4_VIDEOS.rar (36.7 MB)
+
+en esta misma carpeta, para realizar una serie de pruebas predeterminada. Una vez obtenida las imagenes y videos, solo necesita
+ejecutar el archivo "AAN_P4.exe".
+
+En la carpeta "Codigo Practica 4" se encuentra el codigo fuente de la practica 4 de AAN.
+
+En la carpeta archivos necesarios, se encuentran el resto de codigos para compilar la practica 4.

@@ -1,0 +1,13 @@
+	//equilibrio:
+	Lotka_Volterra(0.2,0.00015,0.0001,0.1,0.00015,1000,200,Presa,Cazador,0.1,1000);
+	
+	//depredadores se extingan y sobrevivan las presas
+	//Lotka_Volterra(0.4,0.005,0.0001,0.2,0.0002,1000,200,P,C,0.1,500);
+	
+	//desaparezcan ambas
+	//Lotka_Volterra(0.5,0.005,0.0001,0.2,0.002,1000,200,P,C,0.1,200);
+	
+	//valores grandes de incremento temporal
+	//Lotka_Volterra(0.2,0.00015,0.0001,0.1,0.00015,1000,200,P,C,5,1000);
+	//Lotka_Volterra(0.4,0.005,0.0001,0.2,0.0002,1000,200,P,C,1.4,50);
+	//Lotka_Volterra(0.5,0.005,0.0001,0.2,0.002,1000,200,P,C,1,50);
